@@ -1,9 +1,11 @@
+/* values in the body block will change the font, the font size and adjusted the line height */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
-
+/* values in the textarea block set the background color to transparent, removed the border
+changed the color to black, added a solid border on the left and added a space around the block */
 textarea{
   background: transparent;
   border: none;
@@ -12,7 +14,8 @@ textarea{
   border-left: 1px solid black;
   padding: 10px;
 }
-
+/* values in the jumbotron block puts the text in the middle of the webpage, sets the background color
+to transparent, sets the font color to black, and creates a bottom border*/
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -20,43 +23,44 @@ textarea{
   border-radius: 0;
   border-bottom: 10px solid black;
 }
-
+/* this wraps the white space in the element*/
 .description{
   white-space: pre-wrap;
 }
-
+/* values in this block sets the text to the center, and rounds the border*/
 .time-block{
   text-align: center;
   border-radius: 15px;
 }
-
+/* values in this block wraps the white space, sets the row height to 80px
+and adds a solid white border on the top */
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
 }
-
+/* this sets the text color in this block to black and the background to white */
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
-
+/*Sets the background color to pat times to gray, and text color white */
 .past {
   background-color: #d3d3d3;
   color: white;
 }
-
+/*sets the background color to red when it is the current hour, and the text color to white */
 .present {
   background-color: #ff6961;
   color: white;
 }
-
+/*This sets the background color to green, and sets the text color to white*/
 .future {
   background-color: #77dd77;
   color: white;
 }
-
+/*This shapes the save button, creates a solid black border, changes the color to blue, and the text color to white*/
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -69,6 +73,8 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+/*below are part of the feature I added. This changes the color of the top border depending on what
+value has been put in the time slot */
 .colorchange{
   border-color: darkred;
   border-width: 10px;
